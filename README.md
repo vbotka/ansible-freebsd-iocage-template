@@ -11,28 +11,26 @@ Feel free to [share your feedback and report issues](https://github.com/vbotka/a
 
 [Contributions are welcome](https://github.com/firstcontributions/first-contributions).
 
-
 ## Requirements
 
-TBD
+Works out of the box in the collection [vbotka.freebsd](https://galaxy.ansible.com/ui/repo/published/vbotka/freebsd/)
+
+## Examples
+
+* [522 iocage templates ansible-syslogng-*](https://ansible-collection-freebsd.readthedocs.io/en/latest/examples/522/example.html)
+* [523 iocage template ansible-repos](https://ansible-collection-freebsd.readthedocs.io/en/latest/examples/523/example.html)
+* [524 iocage template ansible-init](https://ansible-collection-freebsd.readthedocs.io/en/latest/examples/524/example.html)
 
 ### Collections
 
 * [ansible.posix](https://github.com/ansible-collections/ansible.posix)
 * [community.general](https://github.com/ansible-collections/community.general)
 
-
 ### Recommended roles
 
 TBD
 
 ### Packages
-
-Controller:
-
-TBD
-
-Remote hosts:
 
 TBD
 
