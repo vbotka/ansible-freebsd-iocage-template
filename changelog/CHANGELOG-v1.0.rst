@@ -5,6 +5,20 @@ vbotka.freebsd_iocage_template 1.0 Release Notes
 .. contents:: Topics
 
 
+1.2.0
+
+Release Summary
+---------------
+Use command module instead of iocage module.
+
+Major Changes
+-------------
+
+Minor Changes
+-------------
+* Use command module instead of iocage module.
+
+
 1.1.0
 
 Release Summary
