@@ -22,14 +22,11 @@
 - name: Set iocage pool mount point.
   block:
 
-    - name: "Setup: Get activated pool."  # noqa: risky-shell-pipe
+    - name: "Setup: Get activated pool."
       register: out_pool
       changed_when: false
       check_mode: false
-      ansible.builtin.shell: >-
-        zfs list -H -o name |
-        grep '/iocage$' |
-        cut -d'/' -f1
+      ansible.builtin.command: iocage get -p
 
     - name: "Setup: Debug get activated pool."
       when: fit_debug2 | bool

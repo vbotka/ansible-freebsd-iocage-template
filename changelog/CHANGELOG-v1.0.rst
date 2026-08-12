@@ -9,12 +9,16 @@ vbotka.freebsd_iocage_template 1.0 Release Notes
 
 Release Summary
 ---------------
+Add files templating.
 
 Major Changes
 -------------
 
 Minor Changes
 -------------
+* Add tasks/templates; Create files from templates.
+* Fix tasks/pkg.yml; Install packages.
+* Get activated pool by iocage get -p
 
 
 1.3.0

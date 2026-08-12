@@ -46,6 +46,10 @@
   tags: fit_file_lines
   ansible.builtin.import_tasks: file_lines.yml
 
+- name: Template files.
+  tags: fit_templates
+  ansible.builtin.import_tasks: templates.yml
+
 - name: Configure sudo.
   when: fit_sudo | bool
   tags: fit_sudo
