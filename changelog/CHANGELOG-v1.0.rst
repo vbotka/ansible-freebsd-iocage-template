@@ -5,6 +5,21 @@ vbotka.freebsd_iocage_template 1.0 Release Notes
 .. contents:: Topics
 
 
+1.3.4
+
+Release Summary
+---------------
+Get rid of Ansible Galaxy ansible-lint warnings.
+
+Major Changes
+-------------
+
+Minor Changes
+-------------
+* syntax-check[unknown-module]; community.general.pkgng is included by default.
+* schema[meta]; versions ['6.1', '7.1', '7.2', 'all'] is both obsolete and misleading.
+
+
 1.3.3
 
 Release Summary
