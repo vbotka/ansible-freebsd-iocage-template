@@ -5,6 +5,13 @@ vbotka.freebsd_iocage_template 1.0 Release Notes
 .. contents:: Topics
 
 
+1.3.2
+
+Release Summary
+---------------
+Put required collections in meta/requirements.yml
+
+
 1.3.1
 
 Release Summary
