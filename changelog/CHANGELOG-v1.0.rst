@@ -5,6 +5,13 @@ vbotka.freebsd_iocage_template 1.0 Release Notes
 .. contents:: Topics
 
 
+1.3.3
+
+Release Summary
+---------------
+Move meta/requirements.yml to the role root directory.
+
+
 1.3.2
 
 Release Summary
