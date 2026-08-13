@@ -3,6 +3,16 @@
 # Simplified BSD License, https://opensource.org/licenses/BSD-2-Clause
 # SPDX-License-Identifier: BSD-2-Clause
 
+- name: "Pkg: Get iocage list of jails."
+  register: out_jails
+  changed_when: false
+  ansible.builtin.command: iocage list --long
+
+- name: "Pkg: Display iocage_jails fit_debug={{ fit_debug }}"
+  when: fit_debug | bool
+  ansible.builtin.debug:
+    var: fit_iocage_jails
+
 - name: "Pkg: Install packages."
   register: out
   community.general.pkgng:
