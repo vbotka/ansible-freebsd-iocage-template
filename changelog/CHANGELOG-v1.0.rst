@@ -17,6 +17,8 @@ Minor Changes
 -------------
 * Add pkgng options ignore_osver and pkgsite.
 * Add ansible_facts.* debug.yml
+* Move .ansible-lint.local to .ansible-lint
+* Update README.md
 
 
 1.3.4
