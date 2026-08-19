@@ -5,6 +5,22 @@ vbotka.freebsd_iocage_template 1.0 Release Notes
 .. contents:: Topics
 
 
+1.3.5
+
+Release Summary
+---------------
+
+Major Changes
+-------------
+
+Minor Changes
+-------------
+* Add pkgng options ignore_osver and pkgsite.
+* Add ansible_facts.* debug.yml
+* Move .ansible-lint.local to .ansible-lint
+* Update README.md
+
+
 1.3.4
 
 Release Summary
