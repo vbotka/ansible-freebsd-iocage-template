@@ -5,7 +5,24 @@ vbotka.freebsd_iocage_template 1.0 Release Notes
 .. contents:: Topics
 
 
+1.3.6
+=====
+
+Release Summary
+---------------
+Mount filesystems, configure, and update pkg repos.
+
+Major Changes
+-------------
+
+Minor Changes
+-------------
+* Optionally mount filesystems.
+* Optionally configure and update pkg repos.
+
+
 1.3.5
+=====
 
 Release Summary
 ---------------
@@ -22,6 +39,7 @@ Minor Changes
 
 
 1.3.4
+=====
 
 Release Summary
 ---------------
@@ -37,6 +55,7 @@ Minor Changes
 
 
 1.3.3
+=====
 
 Release Summary
 ---------------
@@ -44,6 +63,7 @@ Move meta/requirements.yml to the role root directory.
 
 
 1.3.2
+=====
 
 Release Summary
 ---------------
@@ -51,6 +71,7 @@ Put required collections in meta/requirements.yml
 
 
 1.3.1
+=====
 
 Release Summary
 ---------------
@@ -67,6 +88,7 @@ Minor Changes
 
 
 1.3.0
+=====
 
 Release Summary
 ---------------
@@ -81,6 +103,7 @@ Minor Changes
 
 
 1.2.0
+=====
 
 Release Summary
 ---------------
@@ -95,6 +118,7 @@ Minor Changes
 
 
 1.1.0
+=====
 
 Release Summary
 ---------------
@@ -111,6 +135,7 @@ Minor Changes
 
 
 1.0.0
+=====
 
 Release Summary
 ---------------
