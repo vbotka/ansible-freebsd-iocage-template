@@ -1,6 +1,5 @@
 ---
-# Copyright 2026 Vladimir Botka <vbotka@gmail.com>
-# Simplified BSD License, https://opensource.org/licenses/BSD-2-Clause
+# (c) 2026 Vladimir Botka <vbotka@gmail.com>
 # SPDX-License-Identifier: BSD-2-Clause
 
 # tasks for freebsd_iocage_template (fit)
@@ -20,6 +19,10 @@
 - name: Create jails.
   tags: fit_create
   ansible.builtin.import_tasks: create.yml
+
+- name: Mount file systems.
+  tags: fit_mount
+  ansible.builtin.import_tasks: mount.yml
 
 - name: Start jails.
   tags: fit_start
