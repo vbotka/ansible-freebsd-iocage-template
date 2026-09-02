@@ -90,23 +90,30 @@ fit_pkg_cached: true
 
 fit_mount:
   /usr/local/repo: /usr/local/repo
+
 fit_pkg_conf:
   /usr/local/etc/pkg/repos:
-    - local.conf
+    - {src: local.conf.j2, dest: local.conf}
 
-fit_file_options:
+fit_dir_options:
   /usr/local/www/nginx:
     owner: root
     group: www
     mode: '0755'
+  /usr/local/repo:
+    owner: root
+    group: wheel
+    mode: '0755'
+  /usr/local/etc/pkg/repos:
+    owner: root
+    group: wheel
+    mode: '0755'
+
+fit_file_options:
   /usr/local/www/nginx/index.yml:
     owner: root
     group: www
     mode: '0644'
-  /usr/local/etc/nginx:
-    owner: root
-    group: wheel
-    mode: '0755'
   /usr/local/etc/nginx/nginx.conf:
     owner: root
     group: wheel
@@ -116,14 +123,6 @@ fit_file_options:
     owner: root
     group: wheel
     mode: '0644'
-  /usr/local/repo:
-    owner: root
-    group: wheel
-    mode: '0755'
-  /usr/local/etc/pkg/repos:
-    owner: root
-    group: wheel
-    mode: '0755'
   /usr/local/etc/pkg/repos/local.conf:
     owner: root
     group: wheel
