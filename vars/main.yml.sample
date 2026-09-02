@@ -91,6 +91,7 @@ fit_pkg_cached: true
 fit_mount:
   /usr/local/repo: /usr/local/repo
 
+# The name of the destination file (e.g. local) must be the name of the repo.
 fit_pkg_conf:
   /usr/local/etc/pkg/repos:
     - {src: local.conf.j2, dest: local.conf}

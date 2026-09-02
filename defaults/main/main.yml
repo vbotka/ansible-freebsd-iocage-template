@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: BSD-2-Clause
 
 # defaults for freebsd_iocage_template (fit)
-fit_role_version: 1.3.7
+fit_role_version: 1.4.0
 
 fit_debug: false
 fit_debug0: false

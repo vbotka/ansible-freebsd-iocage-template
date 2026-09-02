@@ -16,7 +16,7 @@ Major Changes
 -------------
 * Add vars fit_dir_options, fit_dir_default, and fit_file_default
 * Add ownership and mode defaults to modules.
-* Update tasks templates.yml; Plain items changed to dict {src: dest}
+* Update tasks templates.yml; List items changed to dict {src: dest}
 
 Minor Changes
 -------------
