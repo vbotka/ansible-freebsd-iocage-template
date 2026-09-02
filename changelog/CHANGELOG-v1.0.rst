@@ -16,6 +16,9 @@ Major Changes
 
 Minor Changes
 -------------
+* Add debug0.yml tasks to display fit_templates.
+* Update setup.yml tasks; Meta end_host changed to end_role
+* Add vars samples.
 
 
 1.3.6
