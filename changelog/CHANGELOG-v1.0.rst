@@ -5,6 +5,35 @@ vbotka.freebsd_iocage_template 1.0 Release Notes
 .. contents:: Topics
 
 
+1.4.0
+=====
+
+Release Summary
+---------------
+Updated ownership, permissions, and templates.
+
+Major Changes
+-------------
+* Add vars fit_dir_options, fit_dir_default, and fit_file_default
+* Add ownership and mode defaults to modules.
+* Update tasks templates.yml; List items changed to dict {src: dest}
+
+Minor Changes
+-------------
+* Add debug0.yml tasks to display fit_templates.
+* Update setup.yml tasks; Meta end_host changed to end_role
+* Add vars samples.
+
+Bugfixes
+--------
+
+Breaking Changes / Porting Guide
+--------------------------------
+* Update tasks templates.yml; list items changed to dict {src: dest};
+  see samples in vars.
+* Add vars fit_dir_options; see samples in vars.
+
+
 1.3.6
 =====
 
